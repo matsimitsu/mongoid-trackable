@@ -11,7 +11,7 @@ class HotelRoom
 end
 ````
 
-Then call hit(:action) where :action could be anything
+Then call `hit(:action)` where :action could be anything
 from :visits to :bookings
 
 
@@ -20,6 +20,7 @@ Internal structure:
 ````
 {
   _id => site_id,
+  'year' => 2012,
   'visits' => {
     'total' => 95,
     'months' => {
