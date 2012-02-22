@@ -19,7 +19,8 @@ Internal structure:
 
 ````
 {
-  _id => site_id,
+  _id => BSON::ObjectId(),
+  'hotel_room_id' => BSON::ObjectId(),
   'year' => 2012,
   'visits' => {
     'total' => 95,
